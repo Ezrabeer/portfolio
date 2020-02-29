@@ -1,0 +1,20 @@
+// Normalize css to fix some default browser styling.
+@import "../../../node_modules/normalize.css/normalize.css";
+
+// Import Bootstrap grid system
+@import "~bootstrap-4-grid/scss/grid";
+
+// Import Open-Sans Google font
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800&display=swap');
+
+// Import Variables
+@import "variables";
+
+// Import Main styles
+@import "main";
+
+// Import Homepage styles
+@import "home";
+
+// Import Navigation bar
+@import "nav";

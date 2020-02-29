@@ -1,0 +1,43 @@
+body {
+  background: #12181b;
+  color: $white;
+}
+
+.title {
+  font-size: 3.5rem;
+  color: $lightgreen;
+  text-shadow: 0 .5px .5px $lightgreen;
+}
+
+.surprise--button {
+  cursor: pointer;
+  background-color: #142814;
+  border: 1px solid #427f42;
+  border-radius: 20px;
+  color: $text-secondary;
+  font-size: 3rem;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1.5rem;
+  outline: 0;
+  transition: background-color 100ms, color 50ms;
+  &:hover {
+    color: $white;
+    background-color: #65aa65;
+    transition: background-color 200ms, color 150ms;
+  }
+}
+
+.subtitle {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.about-me-section {
+  font-size: 1.4rem;
+  line-height: 1.7;
+}
+
+.display-1 {
+  font-size: 3.5rem;
+}

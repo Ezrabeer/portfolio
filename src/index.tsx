@@ -4,7 +4,7 @@ import App from './App';
 import { Provider } from 'react-redux'
 import { configureStore, history } from './store'
 import * as serviceWorker from './serviceWorker';
-import './sass/style.scss';
+import './assets/sass/style.scss';
 
 const store = configureStore();
 ReactDOM.render(
