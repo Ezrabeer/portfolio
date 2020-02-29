@@ -1,1 +1,11 @@
+// Normalize css to fix some default browser styling.
+@import "~normalize.css/normalize.css";
+
+// Import Open-Sans Google font
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+// Import Variables
+@import "variables";
+
+// Import Main styles
 @import "main";

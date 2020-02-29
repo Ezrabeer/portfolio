@@ -1,10 +1,12 @@
 import React from 'react';
-import { Switch, Route, Redirect } from 'react-router-dom';
-import { Home } from '../views';
+import { Switch, Redirect } from 'react-router-dom';
+import { HomePage } from '../views';
+import { RouteWithLayout } from '../components';
+import { Main } from '../layouts';
 
 export const routes = (
   <Switch>
     <Redirect exact from='/' to='/home'/>
-    <Route path='/home' component={Home} />
+    <RouteWithLayout path='/home' view={HomePage} layout={Main}/>
   </Switch>
 );
